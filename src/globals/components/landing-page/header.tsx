@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 
 // import { Container } from './styles';
 
@@ -10,9 +10,24 @@ const Header = () => {
       alignItems="center"
       justifyContent="space-between"
       bgcolor="transparent"
-      p={2}
+      pt={"5rem"}
+      px={"5rem"}
+      pb={"2rem"}
     >
-      <Typography variant="h6">Logo</Typography>
+      <Typography variant="h4">ValorantZando</Typography>
+
+      <Box
+        alignSelf="flex-end"
+        display="flex"
+        alignItems="center"
+        justifyContent="space-between"
+        columnGap="3rem"
+      >
+        <a href="/">Home</a>
+        <Button variant="contained" sx={{ borderRadius: "2px" }}>
+          Get Started
+        </Button>
+      </Box>
     </Box>
   );
 };

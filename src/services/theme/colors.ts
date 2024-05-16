@@ -1,3 +1,4 @@
+import { COLORS } from "@/styles/colors";
 import { alpha } from "@mui/material/styles";
 
 const withAlphas = (color: any) => {
@@ -28,7 +29,7 @@ export const indigo = withAlphas({
   lightest: "#F5F7FF",
   light: "#EBEEFE",
   main: "#FC4754",
-  dark: "#4338CA",
+  dark: COLORS.secondary,
   darkest: "#312E81",
   contrastText: "#FFFFFF",
 });
