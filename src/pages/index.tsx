@@ -18,7 +18,6 @@ export default function Home() {
 
       <Container width="100%" height="100vh">
         <Header />
-
         <CallSection />
       </Container>
     </>
